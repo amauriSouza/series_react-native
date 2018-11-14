@@ -54,8 +54,8 @@ export default class LoginPage extends React.Component {
       })
       .catch(error => {
         Alert.alert(
-          'Usuário não encontrado',
-          'Digite seu email e senha ou crie uma conta!',
+          'Email/Senha não encontrado',
+          'Digite seu email e/ou senha ou crie uma conta!',
           [{ text: 'OK' }],
           { cancelable: false }
         );
